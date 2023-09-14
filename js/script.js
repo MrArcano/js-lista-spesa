@@ -1,3 +1,5 @@
+const ulList = document.getElementById("ul-list");
+
 const spesaArray = [
   "Pane",
   "Pasta",
@@ -9,11 +11,8 @@ const spesaArray = [
 ];
 
 let counter = 0;
-let message = "";
 
 while (counter <= spesaArray.length - 1) {
-  message += spesaArray[counter] + " ";
+      ulList.innerHTML += `<li> ${spesaArray[counter]} </li>`
   counter++;
 }
-
-console.log(message);
