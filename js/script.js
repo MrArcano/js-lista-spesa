@@ -13,6 +13,6 @@ const spesaArray = [
 let counter = 0;
 
 while (counter <= spesaArray.length - 1) {
-      ulList.innerHTML += `<li> ${spesaArray[counter]} </li>`
+      ulList.innerHTML += `<li class="list-group-item"> ${spesaArray[counter]} </li>`
   counter++;
 }
